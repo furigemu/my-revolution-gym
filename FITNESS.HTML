@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My‑Revolution Fitness & Gym</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: #0d0d0d; color: #fff; }
+header {
+background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=1600&q=80') center/cover;
+height: 100vh; display: flex; align-items: center; justify-content: center;
+flex-direction: column; text-align: center; padding: 20px;
+}
+header h1 { font-size: 4rem; font-weight: 800; text-transform: uppercase; }
+header p { margin-top: 10px; font-size: 1.2rem; max-width: 600px; }
+.btn {
+margin-top: 20px; padding: 12px 30px; border: none; cursor: pointer;
+font-size: 1rem; font-weight: 600; background: #4CAF50; color: #fff;
+transition: 0.3s; border-radius: 5px;
+}
+.btn:hover { background: #66bb6a; }
+section { padding: 80px 10%; }
+.about { display: flex; gap: 50px; align-items: center; flex-wrap: wrap; }
+.about img { width: 450px; border-radius: 10px; }
+h2 { font-size: 2.5rem; margin-bottom: 20px; }
+.features { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 30px; margin-top: 40px; }
+.card {
+background: #111; padding: 30px; border-radius: 10px; text-align: center;
+border: 1px solid #222; transition: 0.3s;
+}
+.card:hover { transform: translateY(-5px); border-color: #4CAF50; }
+footer { text-align: center; padding: 30px; background: #0b0b0b; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+
+<header>
+<h1>My‑Revolution Fitness</h1>
+<p>Transform your body. Elevate your mindset. Join the revolution of strength, discipline, and unstoppable confidence.</p>
+<button class="btn">Join Now</button>
+</header>
+
+
+<section class="about">
+<img src="https://images.unsplash.com/photo-1598971639058-6e1f7d5a96d1?auto=format&fit=crop&w=800&q=80" alt="Gym Image">
+<div>
+<h2>Why Choose Us?</h2>
+<p>We provide world‑class equipment, expert trainers, motivating environment, and science‑based fitness programs to help you achieve your goals faster and better.</p>
+</div>
+</section>
+
+
+<section>
+<h2>Our Services</h2>
+<div class="features">
+<div class="card"><h3>Personal Training</h3><p>Achieve peak performance with 1‑on‑1 coaching.</p></div>
+<div class="card"><h3>Strength Training</h3><p>Build muscle, power, and endurance.</p></div>
+<div class="card"><h3>Cardio Zone</h3><p>Modern cardio machines for fat burning & stamina.</p></div>
+<div class="card"><h3>Nutrition Plans</h3><p>Custom meal plans to shape your success.</p></div>
+</div>
+</section>
+
+
+<section id="signup">
+<h2>Join Our Membership</h2>
+<form style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px;background:#111;padding:30px;border-radius:10px;">
+<input type="text" placeholder="Full Name" required style="padding:12px;border:none;border-radius:5px;">
+<input type="email" placeholder="Email" required style="padding:12px;border:none;border-radius:5px;">
+<input type="tel" placeholder="Phone Number" required style="padding:12px;border:none;border-radius:5px;">
+<select required style="padding:12px;border:none;border-radius:5px;">
+<option>Choose Membership Plan</option>
+<option>Monthly</option>
+<option>Quarterly</option>
+<option>Yearly</option>
+</select>
+<button class="btn" type="submit">Submit</button>
+</form>
+</section>
+
+
+<footer>
+© 2025 My‑Revolution Fitness & Gym. All rights reserved.
+</footer>
+
+
+</body>
+</html>
